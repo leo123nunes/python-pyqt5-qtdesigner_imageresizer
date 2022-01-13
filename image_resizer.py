@@ -8,6 +8,8 @@ class App(QMainWindow, Ui_MainWindow):
         super().__init__()
         self.setupUi(self)
 
+        self.setWindowTitle('Image resizer')
+
         self.image = None
 
         self.new_image = None
